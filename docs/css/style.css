@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400&display=swap');
+
+:root {
+	--kanit: 'Kanit', sans-serif;
+}
+
+@media screen and (max-width: 576px)
+{
+    #main {
+    	display: grid;
+    	background: #b7b7a4;
+    	font-family: var(--kanit)
+    }
+
+    #main a {
+    	margin-bottom: 15px
+    }
+
+    #img-div {
+    	margin: 0;
+    	padding: 0 20px;
+    	text-align: center;
+    	background: #a5a58d;
+    	color: #ffe8d6;
+    }
+
+    #img-div img {
+    	width: 100%;
+    	border-radius: 16px;
+    }
+
+    #img-caption {
+    	padding: 5px 0;
+    }
+
+    .corpus {
+    	display: flex;
+    	flex-direction: column;
+    	align-items: center;
+    }
+
+    section {
+    	width: calc(100% - 40px);
+    	margin: 20px;
+    	padding: 0 20px;
+    }
+
+    section div {
+    	background: #a5a58d;
+    	margin: 0 auto;
+    	padding: 25px;
+    	border-radius: 32px;
+    }
+
+    section div div {
+    	background: #b7b7a4;
+    	padding: 2px;
+    }
+
+    hr {
+    	width: 100%;
+    }
+
+    .corpus ul {
+    	display: grid;
+    	padding: 0;
+    	grid-gap: 15px;
+    	font-size: 9px;
+
+    }
+
+    .corpus li {
+    	list-style: none;
+    	margin: 10px 0;
+    }
+
+    .corpus a {
+    	text-decoration: none;
+    	color: #000;
+    	padding:10px;
+    	background: #fff;
+    	border-radius: 8px;
+    }
+
+}
+
+@media screen and (min-width: 577px) {
+	#main {
+		background: red
+	}
+}
